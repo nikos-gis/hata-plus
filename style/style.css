@@ -1,0 +1,368 @@
+.header {
+    background-color: #1f1f56;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    gap: 28px
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    display: flex;
+    gap: 28px;
+}
+
+.menu-link {
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    color: #b1b1d2;
+    font-family: "Arial";
+    text-decoration: none;
+    transition: color .1s ease;
+}
+
+a:hover {
+    color: #fd8300;
+}
+
+.btn {
+    border-radius: 50px;
+    border: 2px solid #fd8300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+    cursor: pointer;
+    padding: 16px 29px;
+    transition: all .5s ease;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #fd8300;
+}
+
+.tel {
+    font-size: 18px;
+    color: #25252c;
+    font-weight: bold;
+    font-family: "Arial";
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.mail {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+    padding-left: 30px;
+}
+
+.skype {
+    font-size: 16px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+    padding-left: 30px;
+    text-decoration: none;
+}
+
+.tels {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.header-contact {
+    padding: 35px 0;
+}
+
+.sale {
+    background-image: url('../img/bg.png');
+    text-align: center;
+    color: #ffffff;
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sale-title {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sale-desk {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.sale-price span {
+    font-size: 40px;
+}
+
+.sale-price {
+    font-size: 24px;
+    color: #f70529;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.osnovnoi-content {
+    width: 713px;
+    padding-bottom: 33px;
+    border-bottom: 1px solid #e4e4ec;
+}
+
+.company-name {
+    margin: 0;
+    font-size: 30px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    padding: 46px 0 27px;
+}
+
+.abzac {
+    max-width: 669px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    font-family: "Arial"
+}
+
+.project-title {
+    font-size: 24px;
+    line-height: 24px;
+    color: #24242b;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+}
+
+.card {
+    width: 220px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+}
+
+.popular-project {
+    width: 713px;
+}
+
+.card h4 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #1f1f56;
+    font-weight: bold;
+    margin: 13px 0 9px;
+    cursor: pointer;
+}
+
+.card h4:hover {
+    text-decoration: underline;
+}
+
+.card p {
+    margin: 0;
+}
+
+.card sup {
+    font-size: 7px;
+}
+
+.sale-price sup {
+    font-size: 10px;
+}
+
+.asaid {
+    width: 219px;
+    margin-left: 28px;
+    padding: 40px 0;
+}
+
+.asaid-title {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Roboto Slab";
+    border-radius: 3px 3px 0 0;
+    background-color: #1f1f56;
+    margin: 0;
+    padding: 15px;
+}
+
+.asaid-link a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: #25252c;
+    font-family: "Arial";
+    Width: 100%;
+    box-sizing: border-box;
+    background-color: #e4e4ec;
+    padding: 15px;
+    text-decoration: none;
+    border-top: 1px solid #cdcddd;
+    transition: all 2s ease;
+}
+
+.asaid-container {
+    margin: 0;
+}
+
+.asaid-icon a {
+    position: relative;
+}
+
+.asaid-icon > a::before {
+    width: 8px;
+    height: 12px;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+}
+
+.asaid-link a:hover {
+    background-color: #fd8300;
+    border-color: #fd8300;
+    color: white;
+}
+
+.asaid-link:last-child a {
+    border-radius: 0 0 3px 3px;
+}
+
+.asaid-icon:hover  a::before {
+    background-image: url('../img/arrow-hover.png');
+    width: 12px;
+    height: 8px;
+}
+
+.tels {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 0;
+}
+
+.sub-asaid {
+    display: none;
+}
+
+.asaid-container>li:hover .sub-asaid {
+    display: block;
+}
+
+.sub-asaid a {
+    padding: 15px;
+    border: none;
+}
+
+.sub-asaid a:hover {
+    background-color: #cecedd;
+    color: black;
+}
+
+
+main {
+    padding-bottom: 48px;
+}
+
+footer {
+    background-color: #ededf5;
+}
+
+.footer {
+    padding: 38px 0 30px;
+}
+
+body {
+    margin: 0;
+}
+
+.tel-icon {
+    position: relative;
+}
+
+.tel-icon::before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    background-image: url('../img/phone.png');
+    width: 16px;
+    height: 16px;
+}
+
+.mail-icon {
+    position: relative;
+}
+
+.mail-icon::before {
+    background-image: url('../img/mail.png');
+    width: 17px;
+    height: 13px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+}
+
+.skype-icon {
+    position: relative;
+}
+
+.skype-icon::before {
+    background-image: url('../img/skype.png');
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    background-repeat: no-repeat;
+}
+
+.copyright {
+    font-size: 13px;
+    line-height: 18px;
+    color: #9999a6;
+    font-family: "Arial";
+    text-align: center;
+    background-color: #dcdce6;
+    padding: 18px;
+    margin: 0;
+}
+
